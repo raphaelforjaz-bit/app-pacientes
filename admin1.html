@@ -165,7 +165,7 @@
             const patientId = targetButton.dataset.patientId;
             const patientName = targetButton.dataset.patientName;
             if (targetButton.classList.contains('link-btn')) {
-                const linkText = `index.html?id=${patientId}`;
+                const linkText = `index1.html?id=${patientId}`; // CORREÇÃO AQUI
                 copyToClipboard(linkText, targetButton);
             } else if (targetButton.classList.contains('message-btn')) {
                 currentPatientId = patientId;
